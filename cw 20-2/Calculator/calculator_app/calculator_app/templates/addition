@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Result</title>
+</head>
+<body>
+    <h1>Addition Result</h1>
+    <p>Operand 1: {{ num1 }}</p>
+    <p>Operand 2: {{ num2 }}</p>
+    <p>Operation: Add</p>
+    <p>Result: {{ result }}</p>
+</body>
+</html>
