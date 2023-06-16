@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Text to HTML Converter</h1>
+  <form method="post">
+    {% csrf_token %}
+    <textarea name="text" rows="10" cols="50"></textarea><br>
+    <input type="submit" value="Convert">
+  </form>
+{% endblock %}
